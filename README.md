@@ -125,7 +125,7 @@ Full pipeline
 python src/pipeline.py
 
 ```
-## Example Riddle
+## 🔍 Example Riddle
 
 Input Triple:
 
@@ -155,25 +155,9 @@ Validator Output :
 }
 ```
 
+## ❗Demo
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Demo
-
-Insert gif or link to demo
-
+**coming soon**
 
 
 
