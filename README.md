@@ -1,60 +1,47 @@
-🧩 RiddleGen: Automatic Riddle Generation From Knowledge Triples
-RiddleGen is a modular pipeline that transforms knowledge triples into high-quality riddles, and then solves/validates them using a symbolic lookup-based validator.
+
+# 🧩 Riddle Quest
+
+RiddleQuest is an end-to-end pipeline that automatically generates high-quality riddles from **structured knowledge**(triples), validates them using a property-based reasoning engine, and produces multiple acceptable answers using a **lookup-based validator**.
+
 The system supports:
-✔ Triple classification
-✔ Embedding & similarity visualization
-✔ Template-based riddle generation (3 versions)
-✔ Automated riddle solving
-✔ Saving riddles + all possible answers
-✔ Fully pluggable triples, templates, and concepts
-RiddleGen is designed for NLP research, reasoning tasks, and educational content generation.
-📁 Project Structure
-.
-├── triples/
-│   └── triples_class.json
-├── templates/
-│   └── templates.json
-├── lookup/
-│   └── lookup.json
-├── generator/
-│   └── generator.py
-├── validator/
-│   └── validator.py
-├── pipeline/
-│   ├── build_lookup.py
-│   ├── pipeline.py
-│   └── visualise.py
-├── outputs/
-│   └── riddles_with_answers.json
-├── embeddings/
-│   └── embeddings.json
-├── requirements.txt
-├── README.md
-└── LICENSE
-🚀 Features
-1. Triple Embedding & Classification
+
+- Template-based riddle generation
+- Positive & negative clue extraction
+- Lookup-driven reasoning and concept scoring
+- Automatic candidate answer generation
+- Clean JSON I/O pipelines suitable for evaluation & dataset creation
+
+## ⭐ Features
+1. **Triple Embedding & Classification**
 Generates embeddings for each triple
 Computes similarity between concepts
 Classifies triples as:
-topic_marker → unique to one concept
-common → shared across concepts
-2. Riddle Generation (3 Versions)
+- topic_marker → unique to one concept
+- common → shared across concepts
+2. **Riddle Generation** (3 Versions)
 Version 1 — Topic-Marker Riddles
 Uses unique triples of a concept.
+```
 Example:
 I breathe using gills.
 I live in water.
 I use fins to move.
 What am I?
+```
 Version 2 — Contrast Riddles
 Uses common properties + contrasting with another concept.
+```
 I am furry but not a dog.
 What am I?
+
+```
 Version 3 — Positive vs Negative Property Riddles
 Uses properties to strengthen reasoning.
+```
 I have whiskers but not retractable claws.
 What am I?
-3. Symbolic Riddle Validator
+```
+3. **Symbolic Riddle Validator**
 Given a riddle, extracts:
 positive clues
 negative clues
@@ -62,68 +49,153 @@ Then uses lookup dictionaries to identify:
 answer
 all possible answers (if multiple concepts fit)
 Saves to:
+```
 outputs/riddles_with_answers.json
-4. Visualization
+```
+4. **Visualization**
 The pipeline can create:
-t-SNE embedding plots
-Similarity maps
-Concept clusters with labels
-🛠️ Installation
-Clone repository:
-git clone https://github.com/yourusername/riddlegen.git
-cd riddlegen
-Install dependencies:
+- t-SNE embedding plots
+- Similarity maps
+- Concept clusters with labels
+
+![t-SNE plot for concpets - Dog, cat and fish](viz_tsne.png)
+
+## Repository structure
+```
+
+RiddleQuest/
+│
+├── triples/
+│   └── triples.json
+│
+├── templates/
+│   └── templates.json
+│
+├── lookup/
+│   └── lookup.json
+│
+├── src/
+│   ├── generator.py
+│   ├── validator.py
+│   └── pipeline.py
+│
+├── data/
+│   └── riddles_with_answers.json
+│
+├── README.md
+└── LICENSE
+
+```
+
+
+##  Architecture
+
+![RiddleQuest pipeline](pipeline.png)
+
+## ⚙️ Installation
+
+Clone the repository:
+```
+git clone https://github.com/<yourname>/RiddleQuest.git
+cd RiddleQuest
+
+```
+Installation
+
+```
 pip install -r requirements.txt
-▶️ Running the Pipeline
-1. Build Lookup
-python pipeline/build_lookup.py
-2. Generate Embeddings & Classify Triples
-python pipeline/pipeline.py
-3. Visualise
-python pipeline/visualise.py
-4. Generate Riddles
-python generator/generator.py
-5. Validate Riddles
-python validator/validator.py
-📦 Outputs
-Final riddles with answers and possible answers:
-outputs/riddles_with_answers.json
-Example entry:
+
+```
+## 🚀 Usage
+
+Generate riddles
+```
+python src/generator.py \
+    --triples triples/triples.json \
+    --templates templates/templates.json
+```
+Validate riddles
+```
+python src/validator.py \
+    --riddles data/riddles.json \
+    --lookup lookup/lookup.json
+```
+Full pipeline
+```
+python src/pipeline.py
+
+```
+## Example Riddle
+
+Input Triple:
+
+```
 {
-  "concept": "Cat",
-  "version": "v1",
-  "riddle": "I have whiskers.\nI am a carnivore.\nI sleep for most of the day.\nWhat am I?",
-  "answer": "Cat",
-  "possible_answers": ["Cat", "Tiger"]
+  "triple": "Many fish have a lateral line to detect water movement.",
+  "label": "topic_marker"
 }
-📜 Templates Format
-templates/templates.json
+
+```
+Generated Riddle :
+
+```
+I can sense movements around me through a special lateral line.
+I live in water and use fins for movement.
+What am I?
+
+```
+Validator Output :
+
+```
 {
-  "v1": [
-    "{s1}\n{s2}\n{s3}\nWhat am I?"
-  ],
-  "v2": [
-    "I am {p1} but not {contrast_concept}.\nWhat am I?"
-  ],
-  "v3": [
-    "I have {positive_prop} but not {negative_prop}.\nWhat am I?"
-  ]
+  "concept": "Fish",
+  "riddle": "...",
+  "answer": "Fish",
+  "possible_answers": ["Fish", "Ray", "Shark"]
 }
-🧠 Lookup Format
-lookup/lookup.json
-{
-  "concept_to_props": {
-    "Cat": ["has_fur", "has_whiskers", "meows"],
-    "Dog": ["has_fur", "barks"]
-  },
-  "prop_to_concepts": {
-    "has_fur": ["Cat", "Dog"],
-    "meows": ["Cat"],
-    "barks": ["Dog"]
-  }
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Demo
+
+Insert gif or link to demo
+
+
+
+
+## 📚 Citations
+
+If you plan to use RiddleQuest for academic work :
+
+```
+@inproceedings{parasa2022learningriddles,
+  title={Automated Riddle Generation for Learning Resources},
+  author={Parasa, Niharika Sri},
+  booktitle={Proceedings of the International Workshop on Educational NLP},
+  year={2022},
+  publisher={ACL},
+ 
 }
-🤝 Contributing
-Contributions are welcome.
-Please open an issue before large changes.
-📜 License
-This project is licensed under the MIT License.
+
+```
+
+## 📄 License
+This project is licensed under the MIT License – see the LICENSE file.
+
+
+
+
