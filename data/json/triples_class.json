@@ -1,0 +1,381 @@
+{
+  "Dog": [
+    {
+      "triple": "Dog is a domesticated mammal.",
+      "avg_distance": 0.17576389014720917,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog scientific name is Canis lupus familiaris.",
+      "avg_distance": 0.28991809487342834,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog belongs to the family Canidae.",
+      "avg_distance": 0.26650169491767883,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog was domesticated from wolves.",
+      "avg_distance": 0.21262697875499725,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog often serves as a companion animal.",
+      "avg_distance": 0.2103109359741211,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog can work as a service or working animal.",
+      "avg_distance": 0.20949698984622955,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog has a keen sense of smell.",
+      "avg_distance": 0.2780764400959015,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog has acute hearing.",
+      "avg_distance": 0.26337867975234985,
+      "label": "common",
+      "neighboring_concepts": [
+        "Cat"
+      ]
+    },
+    {
+      "triple": "Dog communicates by barking.",
+      "avg_distance": 0.15588951110839844,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog can also communicate by growling.",
+      "avg_distance": 0.17007559537887573,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog sometimes communicates by whining.",
+      "avg_distance": 0.1970755010843277,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog has an omnivorous diet depending on care.",
+      "avg_distance": 0.28403255343437195,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog gives birth to litters of puppies.",
+      "avg_distance": 0.37454497814178467,
+      "label": "common",
+      "neighboring_concepts": [
+        "Cat"
+      ]
+    },
+    {
+      "triple": "Dog develops social behavior with humans and other dogs.",
+      "avg_distance": 0.24609793722629547,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog appears in many breeds and size variations.",
+      "avg_distance": 0.308247834444046,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog uses its tail for balance and communication.",
+      "avg_distance": 0.27234652638435364,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog may have a dewclaw on some breeds.",
+      "avg_distance": 0.3393787443637848,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog lifespan varies by breed and care.",
+      "avg_distance": 0.38346001505851746,
+      "label": "common",
+      "neighboring_concepts": [
+        "Cat",
+        "Fish"
+      ]
+    },
+    {
+      "triple": "Dog is highly trainable for tasks and commands.",
+      "avg_distance": 0.2561901807785034,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Dog provides assistance in therapy and service roles.",
+      "avg_distance": 0.1990700513124466,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    }
+  ],
+  "Cat": [
+    {
+      "triple": "Cat is a small domesticated carnivorous mammal.",
+      "avg_distance": 0.18383117020130157,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat scientific name is Felis catus.",
+      "avg_distance": 0.23394913971424103,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat belongs to the family Felidae.",
+      "avg_distance": 0.21201427280902863,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat descended from the African wildcat.",
+      "avg_distance": 0.23394520580768585,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat commonly lives as a pet.",
+      "avg_distance": 0.18383370339870453,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat helps control rodent populations.",
+      "avg_distance": 0.2418157309293747,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat is an obligate carnivore.",
+      "avg_distance": 0.18252556025981903,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat has excellent night vision.",
+      "avg_distance": 0.2548063099384308,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat has very acute hearing.",
+      "avg_distance": 0.26337867975234985,
+      "label": "common",
+      "neighboring_concepts": [
+        "Dog"
+      ]
+    },
+    {
+      "triple": "Cat grooms itself frequently.",
+      "avg_distance": 0.28475770354270935,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat often purrs to communicate contentment.",
+      "avg_distance": 0.2126200795173645,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat meows often when interacting with humans.",
+      "avg_distance": 0.2318134754896164,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat has retractable claws.",
+      "avg_distance": 0.24965137243270874,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat has whiskers for tactile sensing.",
+      "avg_distance": 0.2610039710998535,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat gives birth to litters of kittens.",
+      "avg_distance": 0.37454497814178467,
+      "label": "common",
+      "neighboring_concepts": [
+        "Dog"
+      ]
+    },
+    {
+      "triple": "Cat may be solitary or social depending on environment.",
+      "avg_distance": 0.2124720811843872,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat lifespan varies by lifestyle and care.",
+      "avg_distance": 0.32598912715911865,
+      "label": "common",
+      "neighboring_concepts": [
+        "Dog"
+      ]
+    },
+    {
+      "triple": "Cat is most active at dawn and dusk.",
+      "avg_distance": 0.2277102917432785,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat holds longstanding cultural significance.",
+      "avg_distance": 0.2082611322402954,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Cat has a long history of association with humans.",
+      "avg_distance": 0.16898103058338165,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    }
+  ],
+  "Fish": [
+    {
+      "triple": "Fish are gill-bearing aquatic vertebrates.",
+      "avg_distance": 0.19289416074752808,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Fish breathe using gills.",
+      "avg_distance": 0.2146686315536499,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Fish are mostly ectothermic (cold-blooded).",
+      "avg_distance": 0.24202501773834229,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Fish use fins to swim.",
+      "avg_distance": 0.16810275614261627,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Many fish have scales covering their bodies.",
+      "avg_distance": 0.2548809051513672,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Fish include jawless, cartilaginous, and bony groups.",
+      "avg_distance": 0.2323843389749527,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Many fish species reproduce by laying eggs.",
+      "avg_distance": 0.3014531433582306,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Fish live in freshwater and marine habitats.",
+      "avg_distance": 0.2115481048822403,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Many fish have a lateral line to detect water movement.",
+      "avg_distance": 0.22055290639400482,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Many bony fish have a swim bladder for buoyancy.",
+      "avg_distance": 0.21907532215118408,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Fish diets vary and include herbivores, carnivores, and omnivores.",
+      "avg_distance": 0.2356000542640686,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Fish act as both consumers and predators in aquatic food webs.",
+      "avg_distance": 0.23805660009384155,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Humans use fish as a major food source through fisheries and aquaculture.",
+      "avg_distance": 0.2540360987186432,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Fish have paired and unpaired fins for movement.",
+      "avg_distance": 0.17874640226364136,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Fish lifespans vary widely across species.",
+      "avg_distance": 0.2513185441493988,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Some fish undergo larval stages and metamorphosis.",
+      "avg_distance": 0.28810915350914,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Many fish species exhibit schooling behavior.",
+      "avg_distance": 0.3071168065071106,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Some fish species are capable of electroreception.",
+      "avg_distance": 0.2941697835922241,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Many fish species face threats from overfishing and habitat loss.",
+      "avg_distance": 0.27791786193847656,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    },
+    {
+      "triple": "Traditional classifications consider fish a paraphyletic group.",
+      "avg_distance": 0.29410839080810547,
+      "label": "topic_marker",
+      "neighboring_concepts": []
+    }
+  ]
+}

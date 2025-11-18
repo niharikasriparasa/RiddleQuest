@@ -1,0 +1,39 @@
+{
+  "riddles": [
+    {
+      "concept": "Dog",
+      "version": "v1",
+      "riddle": "Often, I also communicate by growling.\nOften, I develops social behavior with humans and other dogs.\nOften, I appears in many breeds and size variations.\nOften, I provides assistance in therapy and service roles.\nOften, I highly trainable for tasks and commands.\nWhat am I?"
+    },
+    {
+      "concept": "Dog",
+      "version": "v2",
+      "riddle": "I gives birth to litters of puppies but I am not a Cat.\nI lifespan varies by breed and care but I am not a Cat.\nI acute hearing but I am not a Cat.\nWhat am I?"
+    },
+    {
+      "concept": "Dog",
+      "version": "v3",
+      "riddle": "I can gives birth to litters of puppies but I cannot a long history of association with humans.\nI can lifespan varies by breed and care but I cannot use fins to swim.\nI acute hearing but I don't helps control rodent populations.\nWhat am I?"
+    },
+    {
+      "concept": "Cat",
+      "version": "v1",
+      "riddle": "Often, I commonly lives as a pet.\nOften, I scientific name is Felis catus.\nOften, I most active at dawn and dusk.\nOften, I grooms itself frequently.\nOften, I often purrs to communicate contentment.\nWhat am I?"
+    },
+    {
+      "concept": "Cat",
+      "version": "v2",
+      "riddle": "I gives birth to litters of kittens but I am not a Dog.\nI can lifespan varies by lifestyle and care but I am nothing like a Dog.\nI very acute hearing but I am not a Dog.\nWhat am I?"
+    },
+    {
+      "concept": "Cat",
+      "version": "v3",
+      "riddle": "I very acute hearing but I don't belongs to the family Canidae.\nI can lifespan varies by lifestyle and care but I cannot provides assistance in therapy and service roles.\nI can gives birth to litters of kittens but I cannot lifespan varies by breed and care.\nWhat am I?"
+    },
+    {
+      "concept": "Fish",
+      "version": "v1",
+      "riddle": "I paired and unpaired fins for movement.\nI breathe using gills.\nI live in freshwater and marine habitats.\nI Traditional classifications consider fish a paraphyletic group.\nI gill-bearing aquatic vertebrates.\nWhat am I?"
+    }
+  ]
+}
