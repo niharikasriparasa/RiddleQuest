@@ -58,7 +58,7 @@ The pipeline can create:
 - Similarity maps
 - Concept clusters with labels
 
-![t-SNE plot for concpets - Dog, cat and fish](viz_tsne.png)
+![t-SNE plot for concpets - Dog, cat and fish](src/outputs/viz_tsne.png)
 
 ## Repository structure
 ```
