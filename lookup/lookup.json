@@ -1,0 +1,573 @@
+{
+  "concept_to_props": {
+    "Dog": [
+      "acute hearing",
+      "also communicate growling",
+      "appears in many breeds and size variations",
+      "belongs the family canidae",
+      "communicates barking",
+      "communicates whining",
+      "develops social behavior with humans and other dogs",
+      "domesticated from wolves",
+      "domesticated mammal",
+      "gives birth litters of puppies",
+      "have a dewclaw on some breeds",
+      "highly trainable for tasks and commands",
+      "keen sense of smell",
+      "lifespan varies breed and care",
+      "omnivorous diet depending on care",
+      "provides assistance in therapy and service roles",
+      "scientific name is canis lupus familiaris",
+      "serves as a companion animal",
+      "uses its tail for balance and communication",
+      "work as a service or working animal"
+    ],
+    "Cat": [
+      "be solitary or social depending on environment",
+      "belongs the family felidae",
+      "descended from the african wildcat",
+      "excellent night vision",
+      "gives birth litters of kittens",
+      "grooms itself frequently",
+      "helps control rodent populations",
+      "holds longstanding cultural significance",
+      "lifespan varies lifestyle and care",
+      "lives as a pet",
+      "long history of association with humans",
+      "meows often when interacting with humans",
+      "most active at dawn and dusk",
+      "obligate carnivore",
+      "purrs communicate contentment",
+      "retractable claws",
+      "scientific name is felis catus",
+      "small domesticated carnivorous mammal",
+      "very acute hearing",
+      "whiskers for tactile sensing"
+    ],
+    "Fish": [
+      "act as both consumers and predators in aquatic food webs",
+      "breathe using gills",
+      "diets vary and include herbivores, carnivores, and omnivores",
+      "gill-bearing aquatic vertebrates",
+      "humans use fish as a major food source through fisheries and aquaculture",
+      "include jawless, cartilaginous, and bony groups",
+      "lifespans vary widely across species",
+      "live in freshwater and marine habitats",
+      "many bony fish have a swim bladder for buoyancy",
+      "many fish have a lateral line detect water movement",
+      "many fish have scales covering their bodies",
+      "many fish species exhibit schooling behavior",
+      "many fish species face threats from overfishing and habitat loss",
+      "many fish species reproduce laying eggs",
+      "mostly ectothermic (cold-blooded)",
+      "paired and unpaired fins for movement",
+      "some fish species are capable of electroreception",
+      "some fish undergo larval stages and metamorphosis",
+      "traditional classifications consider fish a paraphyletic group",
+      "use fins swim"
+    ]
+  },
+  "prop_to_concepts": {
+    "domesticated mammal": [
+      "Dog"
+    ],
+    "scientific name is canis lupus familiaris": [
+      "Dog"
+    ],
+    "belongs the family canidae": [
+      "Dog"
+    ],
+    "domesticated from wolves": [
+      "Dog"
+    ],
+    "serves as a companion animal": [
+      "Dog"
+    ],
+    "work as a service or working animal": [
+      "Dog"
+    ],
+    "keen sense of smell": [
+      "Dog"
+    ],
+    "acute hearing": [
+      "Dog"
+    ],
+    "communicates barking": [
+      "Dog"
+    ],
+    "also communicate growling": [
+      "Dog"
+    ],
+    "communicates whining": [
+      "Dog"
+    ],
+    "omnivorous diet depending on care": [
+      "Dog"
+    ],
+    "gives birth litters of puppies": [
+      "Dog"
+    ],
+    "develops social behavior with humans and other dogs": [
+      "Dog"
+    ],
+    "appears in many breeds and size variations": [
+      "Dog"
+    ],
+    "uses its tail for balance and communication": [
+      "Dog"
+    ],
+    "have a dewclaw on some breeds": [
+      "Dog"
+    ],
+    "lifespan varies breed and care": [
+      "Dog"
+    ],
+    "highly trainable for tasks and commands": [
+      "Dog"
+    ],
+    "provides assistance in therapy and service roles": [
+      "Dog"
+    ],
+    "small domesticated carnivorous mammal": [
+      "Cat"
+    ],
+    "scientific name is felis catus": [
+      "Cat"
+    ],
+    "belongs the family felidae": [
+      "Cat"
+    ],
+    "descended from the african wildcat": [
+      "Cat"
+    ],
+    "lives as a pet": [
+      "Cat"
+    ],
+    "helps control rodent populations": [
+      "Cat"
+    ],
+    "obligate carnivore": [
+      "Cat"
+    ],
+    "excellent night vision": [
+      "Cat"
+    ],
+    "very acute hearing": [
+      "Cat"
+    ],
+    "grooms itself frequently": [
+      "Cat"
+    ],
+    "purrs communicate contentment": [
+      "Cat"
+    ],
+    "meows often when interacting with humans": [
+      "Cat"
+    ],
+    "retractable claws": [
+      "Cat"
+    ],
+    "whiskers for tactile sensing": [
+      "Cat"
+    ],
+    "gives birth litters of kittens": [
+      "Cat"
+    ],
+    "be solitary or social depending on environment": [
+      "Cat"
+    ],
+    "lifespan varies lifestyle and care": [
+      "Cat"
+    ],
+    "most active at dawn and dusk": [
+      "Cat"
+    ],
+    "holds longstanding cultural significance": [
+      "Cat"
+    ],
+    "long history of association with humans": [
+      "Cat"
+    ],
+    "gill-bearing aquatic vertebrates": [
+      "Fish"
+    ],
+    "breathe using gills": [
+      "Fish"
+    ],
+    "mostly ectothermic (cold-blooded)": [
+      "Fish"
+    ],
+    "use fins swim": [
+      "Fish"
+    ],
+    "many fish have scales covering their bodies": [
+      "Fish"
+    ],
+    "include jawless, cartilaginous, and bony groups": [
+      "Fish"
+    ],
+    "many fish species reproduce laying eggs": [
+      "Fish"
+    ],
+    "live in freshwater and marine habitats": [
+      "Fish"
+    ],
+    "many fish have a lateral line detect water movement": [
+      "Fish"
+    ],
+    "many bony fish have a swim bladder for buoyancy": [
+      "Fish"
+    ],
+    "diets vary and include herbivores, carnivores, and omnivores": [
+      "Fish"
+    ],
+    "act as both consumers and predators in aquatic food webs": [
+      "Fish"
+    ],
+    "humans use fish as a major food source through fisheries and aquaculture": [
+      "Fish"
+    ],
+    "paired and unpaired fins for movement": [
+      "Fish"
+    ],
+    "lifespans vary widely across species": [
+      "Fish"
+    ],
+    "some fish undergo larval stages and metamorphosis": [
+      "Fish"
+    ],
+    "many fish species exhibit schooling behavior": [
+      "Fish"
+    ],
+    "some fish species are capable of electroreception": [
+      "Fish"
+    ],
+    "many fish species face threats from overfishing and habitat loss": [
+      "Fish"
+    ],
+    "traditional classifications consider fish a paraphyletic group": [
+      "Fish"
+    ]
+  },
+  "triples": {
+    "Dog": [
+      {
+        "phrase": "domesticated mammal",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "scientific name is canis lupus familiaris",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "belongs the family canidae",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "domesticated from wolves",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "serves as a companion animal",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "work as a service or working animal",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "keen sense of smell",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "acute hearing",
+        "label": "common",
+        "neighboring_concepts": [
+          "Cat"
+        ]
+      },
+      {
+        "phrase": "communicates barking",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "also communicate growling",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "communicates whining",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "omnivorous diet depending on care",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "gives birth litters of puppies",
+        "label": "common",
+        "neighboring_concepts": [
+          "Cat"
+        ]
+      },
+      {
+        "phrase": "develops social behavior with humans and other dogs",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "appears in many breeds and size variations",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "uses its tail for balance and communication",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "have a dewclaw on some breeds",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "lifespan varies breed and care",
+        "label": "common",
+        "neighboring_concepts": [
+          "Fish",
+          "Cat"
+        ]
+      },
+      {
+        "phrase": "highly trainable for tasks and commands",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "provides assistance in therapy and service roles",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      }
+    ],
+    "Cat": [
+      {
+        "phrase": "small domesticated carnivorous mammal",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "scientific name is felis catus",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "belongs the family felidae",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "descended from the african wildcat",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "lives as a pet",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "helps control rodent populations",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "obligate carnivore",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "excellent night vision",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "very acute hearing",
+        "label": "common",
+        "neighboring_concepts": [
+          "Dog"
+        ]
+      },
+      {
+        "phrase": "grooms itself frequently",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "purrs communicate contentment",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "meows often when interacting with humans",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "retractable claws",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "whiskers for tactile sensing",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "gives birth litters of kittens",
+        "label": "common",
+        "neighboring_concepts": [
+          "Dog"
+        ]
+      },
+      {
+        "phrase": "be solitary or social depending on environment",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "lifespan varies lifestyle and care",
+        "label": "common",
+        "neighboring_concepts": [
+          "Dog"
+        ]
+      },
+      {
+        "phrase": "most active at dawn and dusk",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "holds longstanding cultural significance",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "long history of association with humans",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      }
+    ],
+    "Fish": [
+      {
+        "phrase": "gill-bearing aquatic vertebrates",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "breathe using gills",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "mostly ectothermic (cold-blooded)",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "use fins swim",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "many fish have scales covering their bodies",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "include jawless, cartilaginous, and bony groups",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "many fish species reproduce laying eggs",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "live in freshwater and marine habitats",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "many fish have a lateral line detect water movement",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "many bony fish have a swim bladder for buoyancy",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "diets vary and include herbivores, carnivores, and omnivores",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "act as both consumers and predators in aquatic food webs",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "humans use fish as a major food source through fisheries and aquaculture",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "paired and unpaired fins for movement",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "lifespans vary widely across species",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "some fish undergo larval stages and metamorphosis",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "many fish species exhibit schooling behavior",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "some fish species are capable of electroreception",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "many fish species face threats from overfishing and habitat loss",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      },
+      {
+        "phrase": "traditional classifications consider fish a paraphyletic group",
+        "label": "topic_marker",
+        "neighboring_concepts": []
+      }
+    ]
+  }
+}

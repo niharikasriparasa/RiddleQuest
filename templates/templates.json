@@ -1,0 +1,15 @@
+{
+  "v1": [
+    "I {prop}.",
+    "I am known to {prop}.",
+    "Often, I {prop}."
+  ],
+  "v2": [
+    "I {prop} but I am not a {neg_con}.",
+    "I can {prop} but I am nothing like a {neg_con}."
+  ],
+  "v3": [
+    "I {prop} but I don't {neg_prop}.",
+    "I can {prop} but I cannot {neg_prop}."
+  ]
+}
