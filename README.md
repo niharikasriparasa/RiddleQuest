@@ -178,7 +178,7 @@ If you plan to use RiddleQuest for academic work :
 ```
 
 ## 📄 License
-This project is licensed under the MIT License – see the LICENSE file.
+This project is licensed under the GPU-3 License – see the LICENSE file.
 
 
 
