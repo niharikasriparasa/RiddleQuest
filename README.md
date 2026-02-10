@@ -96,7 +96,7 @@ RiddleQuest/
 
 Clone the repository:
 ```
-git clone https://github.com/<yourname>/RiddleQuest.git
+git clone https://github.com/niharikasriparasa/RiddleQuest.git
 cd RiddleQuest
 
 ```
@@ -151,7 +151,7 @@ Validator Output :
   "concept": "Fish",
   "riddle": "...",
   "answer": "Fish",
-  "possible_answers": ["Fish", "Ray", "Shark"]
+  "possible_answers": ["Fish", "Ray"]
 }
 ```
 
